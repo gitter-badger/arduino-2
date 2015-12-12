@@ -74,7 +74,7 @@ void down(int a,int b,int c,int d){
     while(b != -1){
       while(c != -1){
         while (d != -1) {
-          while (i<10) {
+          while (i<10) { // i here is like a timer ! because we can't use delay function
             selectDwriteL(1,a);
             selectDwriteL(2,b);
             selectDwriteL(3,c);
